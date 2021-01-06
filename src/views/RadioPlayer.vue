@@ -22,3 +22,14 @@ export default {
 
 }
 </script>
+
+<style lang="scss">
+  .radio{
+    background: linear-gradient(180deg, #003D4D 0%, #00C996 100%);
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+  }
+
+
+</style>

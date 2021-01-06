@@ -26,3 +26,16 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+
+  .radio-player{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+</style>

@@ -1,8 +1,12 @@
 <template>
   <div class="player-sidebar">
-    <radio-logo/>
-    <radio-nav/>
-    <radio-translate-btn/>
+    <div class="player-sidebar__wrap">
+      <div class="player-flex-block">
+        <radio-logo/>
+        <radio-nav/>
+      </div>
+      <radio-translate-btn/>
+    </div>
   </div>
 </template>
 
@@ -19,8 +23,8 @@ export default {
     RadioLogo,
     RadioNav,
     RadioTranslateBtn
-
-
   }
 }
 </script>
+
+<style lang ='scss' src="@/assets/styles/RadioPage/RadioSidebar.scss"></style>
