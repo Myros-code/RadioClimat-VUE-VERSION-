@@ -1,4 +1,8 @@
 
+ <style lang ='css' src="@/assets/styles/normalize.css"></style>
+ <style lang ='css' src="@/assets/styles/font.css"></style>
+ <style lang ='scss' src="@/assets/styles/All/mixins.scss"></style>
+
 
 <template>
   <div id="app">
@@ -8,9 +12,6 @@
 
 
 
-<style lang ='css' src="@/assets/styles/normalize.css"></style>
-<style lang ='css' src="@/assets/styles/font.css"></style>
-<style lang ='scss' src="@/assets/styles/All/mixins.scss"></style>
 <style lang="scss">
   #app{
     font-family: "SF Pro Rounded";

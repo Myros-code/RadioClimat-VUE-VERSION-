@@ -29,19 +29,19 @@ export default {
   data(){
     return{
         navs:[
-            {id:'1',  href:'1', text: 'Радио', img: RadioImage},
-            {id:'2',  href:'2', text: 'Заказать', img: SearchImage},
-            {id:'3',  href:'3', text: 'Подкасты', img: MicroImage},
-            {id:'4',  href:'4', text: 'Расписание', img: CalendarImage},
-            {id:'5',  href:'5', text: 'РусКлиматФонд', img: RusClimatFondImage},
+            {id:'1',  href:'1', text: 'Радио', img: RadioImage , link: ''},
+            {id:'2',  href:'2', text: 'Заказать', img: SearchImage, link: ''},
+            {id:'3',  href:'3', text: 'Подкасты', img: MicroImage, link: ''},
+            {id:'4',  href:'4', text: 'Расписание', img: CalendarImage, link: '/GeneralPage'},
+            {id:'5',  href:'5', text: 'РусКлиматФонд', img: RusClimatFondImage, link: ''},
       ]
     }
   },
 }
 </script>
 
-<style lang="scss">
-  .sidebar-nav{
+<style lang="scss" scoped>
+  .player-sidebar-nav{
     margin-top: 115px;
   }
   

@@ -1,18 +1,18 @@
 <template>
   <div class="sidebar-logo">
-        <a class="sidebar-logo__link" href="">
+        <router-link class="sidebar-logo__link" to="/">
             <figure class="sidebar-logo__figure">
-                <img class="sidebar-logo__img" src="@/assets/images/logo-wh.svg" alt="logo">
+                <img class="sidebar-logo__img" src="@/assets/images/logo-colour.svg" alt="logo">
                 <figcaption class="sidebar-logo__figcaption">Климат</figcaption>
             </figure>
-        </a>
+        </router-link>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: 'radio-sidebar-logo',
+  name: 'general-sidebar-logo',
 }
 </script>
 
@@ -28,7 +28,9 @@ export default {
   }
 
   .sidebar-logo__figure{
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   .sidebar-logo__img{
@@ -36,12 +38,14 @@ export default {
   }
 
   .sidebar-logo__figcaption{
-    font-family: 'BELEPOTAN';
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14px;
-    // text-align: center;
-    color: #FFFFFF;
+    margin-top: 4px;
+    font-family: Belepotan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #4CB8C4;
   }
 
 

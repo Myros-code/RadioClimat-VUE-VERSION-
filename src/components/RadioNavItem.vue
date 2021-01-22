@@ -1,13 +1,16 @@
 <template>
-  <div class="nav-item">
-        <a href="" class="nav-item__link">
-            <figure class="nav-item__figure">
-                <img :src="nav.img" alt="this is a image for navigation item" class="nav-item__img">
-                <figcaption class="nav-item__figcaption">{{nav.text}}</figcaption>
-            </figure>
-        </a>
-  </div>
-    
+  
+    <div class="nav-item">
+      <router-link :to="nav.link" class="nav-item__link">
+          <!-- <a href="" class="nav-item__link"> -->
+              <figure class="nav-item__figure">
+                  <img :src="nav.img" alt="this is a image for navigation item" class="nav-item__img">
+                  <figcaption class="nav-item__figcaption">{{nav.text}}</figcaption>
+              </figure>
+          <!-- </a> -->
+        </router-link>
+    </div>
+  
 </template>
 
 
@@ -20,12 +23,15 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 
   .nav-item{
 
     &:not(:first-child) {
     margin-top: 48px;
+    }
+    &:hover{
+      background-color: rgba(30, 155, 113, 0.397);
     }
   }
 
